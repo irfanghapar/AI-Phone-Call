@@ -5,6 +5,7 @@ import subprocess
 import requests
 import time
 import os
+import socket
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
